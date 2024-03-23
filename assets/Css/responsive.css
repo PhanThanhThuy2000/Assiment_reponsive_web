@@ -1,0 +1,91 @@
+/* pc */
+
+@media(max-width: 1024px) {}
+
+
+/* table */
+
+@media(min-width: 740px) and (max-width: 1023px) {
+    .information {
+        height: 100%;
+    }
+    .menu {
+        justify-content: center;
+    }
+}
+
+
+/* mobile */
+
+@media(max-width: 740px) {
+    .owl-carousel .owl-slide {
+        height: 250px;
+    }
+    .advertisement .total {
+        display: block;
+        top: 48%;
+        left: 75%;
+    }
+    .advertisement .total .btn {
+        display: none;
+    }
+    .information {
+        height: 100%;
+    }
+    /* fix menu */
+    .logo img {
+        display: none;
+    }
+    .element_right,
+    .elememt_left {
+        background-color: #ccc;
+        box-shadow: 0 0 13px rgb(245, 168, 22);
+        z-index: 1000;
+    }
+    .element_right>li>a,
+    .elememt_left>li>a {
+        color: #000;
+    }
+    .menu {
+        flex-direction: column;
+    }
+    .menu {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        justify-content: unset;
+        width: 180px;
+    }
+    .menu:hover .elememt_left {
+        display: block;
+    }
+    .icon-responsive {
+        display: block;
+    }
+    .elememt_left {
+        padding: 0 20px 0;
+        display: none;
+    }
+    .element_right {
+        padding: 0 20px 50px;
+    }
+}
+
+
+/* fix lỗi địa điểm hót*/
+
+@media(min-width: 575px) and (max-width: 766px) {
+    .singingPlay .text-imga {
+        display: none;
+    }
+}
+
+
+/* fix lỗi menu */
+
+@media(min-width: 1023px) and (max-width: 1077px) {
+    .element_right,
+    .elememt_left {
+        display: block;
+    }
+}

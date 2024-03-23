@@ -1,0 +1,34 @@
+.SearchHelp {
+    background: #1a8aeb;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.SearchHelp p {
+    color: #fff;
+}
+
+.SearchHelp h3 {
+    color: #fff;
+}
+
+.SearchHelp form .search {
+    padding: 5px 50px;
+    border-radius: 100px;
+}
+
+.SearchHelp form {
+    position: relative;
+}
+
+.icon-search {
+    position: absolute;
+    right: 18px;
+    bottom: 10px;
+}
+
+.footer-1 {
+    background: #000;
+}

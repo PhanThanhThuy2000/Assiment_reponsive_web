@@ -1,0 +1,28 @@
+.content {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.content>.img>img {
+    width: 60%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 15px 0;
+}
+
+h3 {
+    margin: 15px 0;
+}
+
+span {
+    margin: 30px 0;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.footer-1 {
+    background: #000;
+}

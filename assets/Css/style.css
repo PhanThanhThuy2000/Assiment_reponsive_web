@@ -1,0 +1,390 @@
+/* ---------start css chung------------ */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.while {
+    color: #fff;
+}
+
+.yellow {
+    color: rgb(245, 168, 22);
+    ;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+#main {
+    overflow: hidden;
+}
+
+
+/* --------------end css chung-------------------- */
+
+
+/*------------------- srart header ---------------*/
+
+#header {
+    height: 60px;
+    background-color: #000;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu ul {
+    margin: 0;
+}
+
+.icon-responsive {
+    width: 50px;
+    left: 0;
+    color: #fff;
+    height: 50px;
+    line-height: 60px;
+    display: none;
+    /* padding-left: 24px; */
+    top: 0;
+}
+
+.logo img {
+    width: 100%;
+    height: 60px;
+}
+
+.element_right,
+.elememt_left {
+    display: flex;
+}
+
+menu li {
+    display: block;
+}
+
+.element_right>li>a,
+.elememt_left>li>a {
+    padding: 0 15px;
+    line-height: 60px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.elememt_left>li>a:hover,
+.element_right>li>a:hover {
+    color: rgb(245, 168, 22);
+}
+
+.elememt_left .livel1 {
+    position: relative;
+}
+
+.elememt_left .livel2 {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    top: 100%;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 13px rgb(245, 168, 22);
+}
+
+.elememt_left .livel1 li a {
+    text-decoration: none;
+    display: block;
+    white-space: nowrap;
+    padding: 8px 45px;
+    color: #fff;
+    border-bottom: 1px solid rgb(225, 206, 169);
+}
+
+.elememt_left .livel1:hover .livel2 {
+    display: block;
+}
+
+.elememt_left .livel2>li:hover>a {
+    color: rgb(245, 168, 22);
+    border-bottom: 1px solid rgb(241, 157, 2);
+}
+
+.elememt_left .livel3 {
+    background-color: #000;
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    display: none;
+    box-shadow: 0 0 30px rgb(245, 168, 22);
+}
+
+.elememt_left .livel2>li:hover .livel3 {
+    display: block;
+}
+
+.elememt_left .livel3 li:hover a {
+    color: rgb(245, 168, 22);
+    border-bottom: 1px solid rgb(241, 157, 2);
+}
+
+.livel2 li a i {
+    padding: 0 6 px;
+}
+
+
+/*----------------- end header------------------ */
+
+
+/* ----------------start slider----------------- */
+
+#slider {}
+
+#slider .item img {
+    height: 400px;
+    width: 100%;
+}
+
+
+/* end slider */
+
+
+/* ---------------start content------------------------- */
+
+.container {}
+
+
+/* start Giới thiêu  */
+
+#content .title {
+    padding: 30px;
+}
+
+#content .title .title_1 {
+    color: rgb(245, 168, 22);
+}
+
+#content .title .title_2 {
+    margin: 20px 0;
+}
+
+.row .col-6 h3 {
+    margin-bottom: 15px;
+}
+
+.row .col-6 p {
+    text-align: justify;
+}
+
+.row .col-6 img {}
+
+
+/* end Giới thiêu  */
+
+
+/* start Địa điểm hót */
+
+.singingPlay {
+    background-color: #ccc;
+    margin: 0 15px;
+    padding: 20px 0 50px;
+}
+
+.singingPlay .imga-singingPlay {
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+    height: 250px;
+}
+
+.singingPlay .text-imga {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+
+.singingPlay .detail {
+    overflow: hidden;
+}
+
+.imga-singingPlay:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+
+/* end Địa điểm hót */
+
+
+/* start khu nghỉ dưỡng */
+
+.container .btn:hover {
+    opacity: 0.6;
+}
+
+.container .card .card-img-top {
+    overflow: hidden;
+    max-width: 100%;
+    transform: translateZ(0);
+    margin: 0 auto;
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+}
+
+.container .card .card-img-top:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+
+/* end khu nghỉ dưỡng */
+
+
+/* start advertisement */
+
+.advertisement {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    background: url(/assets/Imgs/content/Thong_tin_img/thong_tin_img2.jpg) top center / cover no-repeat;
+}
+
+.advertisement .total {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.advertisement .total .text {
+    font-weight: 600;
+    color: #fffd;
+    padding: 15px;
+    width: 50%;
+}
+
+.advertisement .total .btn {
+    padding: 15px;
+    width: 50%;
+    align-content: center;
+}
+
+.advertisement .total .btn a {
+    color: #fff;
+    background-color: rgb(245, 168, 22);
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 100px;
+    border: 2px solid #000;
+    font-weight: bold;
+}
+
+.advertisement .total .btn a:hover {
+    background-color: #000;
+    color: #ffff;
+}
+
+
+/* end advertisement */
+
+
+/* start thông tin */
+
+.information {
+    height: 500px;
+    padding-top: 100px;
+}
+
+.information img {
+    width: 201px;
+    height: 100px;
+    display: flex;
+    margin: auto;
+}
+
+.information p {
+    text-align: justify;
+    font-weight: 500;
+}
+
+.information .text-list {
+    font-size: 16px;
+    padding: 20px;
+    font-weight: 600;
+}
+
+.information .text-list>li>a {
+    color: #000;
+    font-size: 18px;
+}
+
+.information .text-list>li {
+    margin-bottom: 15px;
+}
+
+.information .title-menu {
+    padding: 20px;
+}
+
+
+/* start thông tin */
+
+
+/* -----------------end content------------ */
+
+
+/* -------------------start footer---------- */
+
+#footer {
+    height: 150px;
+    width: 100%;
+    background-color: #000;
+}
+
+#footer img {
+    width: 120px;
+    height: 17px;
+}
+
+.copyright .copyright_pay p {
+    color: #ccc;
+    margin-right: 10px;
+}
+
+.copyright .copyright_pay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer .copyright {
+    text-align: center;
+    padding: 20px;
+}
+
+.copyright .footer_text {
+    color: #ccc;
+}
+
+#footer .footer-icon {
+    color: #fff;
+}
+
+
+/* -------------end footer----------- */
